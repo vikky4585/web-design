@@ -13,33 +13,81 @@
 </head>
 
 <body>
-    
-<div class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Lattitude</a>
-        </div>
 
-        <ul class="nav navbar-nav pull-right">
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
-                        <span class="caret"></span></a>
-                        <ul class="dropdown-menu" >
-                            <li><a href="#">Plot1</a></li>
-                            <li><a href="#">Plot2</a></li>
-                            <li><a href="#">Plot3</a></li>
-                            <li><a href="#">Plot4</a></li>
-
+<div class="container-fluid">    
+        <div class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Lattitude</a>
+                    </div>            
+                    <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" >
+                                        <li><a href="#">Plot1</a></li>
+                                        <li><a href="#">Plot2</a></li>
+                                        <li><a href="#">Plot3</a></li>
+                                        <li><a href="#">Plot4</a></li>            
+                                    </ul>                    
+                            </li>    
+                            <li><a href="#">Comparison</a></li>
+                            <li><a href="#">Data</a></li>
                         </ul>
-        
-                </li>    
-                <li><a href="#">Comparison</a></li>
-                <li><a href="#">Data</a></li>
+                </div>
+            </div>
 
+            <div class="container-fluid"  >
+                <div class="row">
+                    <div class="col-lg-7">
+                            <h2 id="c-header">Summary: Lattitude vs. X</h2>
+                            <hr>
+                    </div>
+
+                    <div class="col-lg-5">
+                            <h2 id="c-header">Visualizations</h2>
+                            <hr>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img src="LatVsTemp.png" alt="" class="img-fluid">
+                        <p></p>
+                        <p>The purpose of the project was to analyze how weather changes as you get
+                            closer to the equator. To accomplish this analysis, we first pulled data
+                            from the OpenWeatherMap API to assemble a dataset over 500 cities.
+                        </p>
+                        <p></p>
+                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of
+                            the weather vs latitude. Factors we looked at included temperature, cloudiness,
+                            wind speed and humidity. This site provides the source data and visulisation 
+                            created as part of the analysis, as well as the explanations and descriptions 
+                            of any trends and correlation witnessed.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5">
+                            <div class="col-lg-2">
+                                <div class="thumbnail">
+                                        <img src="LatVsTemp.png" alt="" style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                    <div class="thumbnail">
+                                            <img src="LatVsCloudiness.png" alt="" style="width:100%">
     
-            </ul>
-    </div>
+                                    </div>
+                                </div>                            
 
-   
 
+
+                    </div>
+                    
+
+                </div>
+            </div>
+            
 </div>
 </body>
