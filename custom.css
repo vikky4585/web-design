@@ -18,9 +18,21 @@
   .col-lg-5{
     background-color: rgb(235, 235, 235);
 }
+
+.col-lg-2{
+    background-color: rgb(235, 235, 235);
+}
   #c-header{
       color: lightseagreen;
   }
+
+  #c-container{
+    background-color: rgb(235, 235, 235);
+
+  }
+
+ 
+
   .c-row {
     display: flex;
     flex-wrap: wrap;
