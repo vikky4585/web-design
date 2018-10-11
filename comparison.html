@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="container-fluid">    
+        <div class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Lattitude</a>
+                    </div>            
+                    <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" >
+                                            <li><a href="max-temp.html">Max Temperature</a></li>
+                                            <li><a href="humidity.html">Humidity</a></li>
+                                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                                            <li><a href="windspeed.html">Windspeed</a></li>            
+                                    </ul>                    
+                            </li>    
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+                </div>
+            </div>
+
+            <div id="c-container" class="container-fluid"  >
+                <div class="row">
+                    <div class="col-lg-12">
+                            <h2 id="c-header">Comparison: Latitude vs X</h2>
+                            <hr>
+                    </div>
+                    <p>Click any plot to get in-depth analysis.</p>
+                    
+                    
+                </div>
+                
+                <div class="row">
+
+                    <div class="col-lg-5">
+                        <div class="image-fluid">
+                            <a href="max-temp.html"><img src="LatVsTemp.png" style="width:80% heigth=80%"></a>
+                            <hr>
+                            <a href="humidity.html"><img src="LatVsHumidity.png" style="width:80% heigth=80%"></a>
+                                        
+                    </div>
+                                
+
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="image-fluid">
+                            <a href="cloudiness.html"><img src="LatVsCloudiness.png" style="width:80% heigth=80%"></a>
+                            <hr>
+                            <a href="windspeed.html"><img src="LatVsWindspeed.png" style="width:80% heigth=80%"></a>
+
+                    </div>
+
+            </div>
+                        
+
+            </div>
+                 </div>
+            </div>
+            <nav class="navbar fixed-bottom navbar-light bg-faded">
+                    <a class="navbar-brand" href="#"></a>
+                  </nav>            
+</div>
+</body>
