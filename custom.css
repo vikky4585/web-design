@@ -12,6 +12,11 @@
    
   }
 
+  .image-fluid{
+      width: auto;
+      height: auto;
+  }
+
   .col-lg-7{
       background-color: rgb(235, 235, 235);
   }
